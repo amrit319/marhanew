@@ -1,0 +1,46 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url('../Assats/abc.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+   
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: serif;
+    color: antiquewhite;
+}
+.hero-text p{
+    font-size: 25px;
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-family: Garamond, serif;
+    color: antiquewhite;
+}
+/*---media ----*/
+@media(max-width:708.021px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero{
+       height: 70vh;
+       background: url('../Assats/abc.jpg') ;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
